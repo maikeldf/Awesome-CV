@@ -651,7 +651,7 @@
   \vspace{-4.0mm}
 }
 
-% Define an environment for cvitems(for cventry)                                                  
+% Define an environment for svitems(for cventry)                                                  
 \newenvironment{svitems}{%                                                                                 
   \vspace{3.0mm}                                                                                    
   \begin{justify}                                                                                 
