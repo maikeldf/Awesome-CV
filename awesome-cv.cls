@@ -145,6 +145,7 @@
 \definecolor{awesome-nephritis}{HTML}{27AE60}
 \definecolor{awesome-concrete}{HTML}{95A5A6}
 \definecolor{awesome-darknight}{HTML}{131A28}
+\definecolor{awesome-blue}{HTML}{155A90}
 \colorlet{awesome}{awesome-red}
 
 % Boolean value to switch section color highlighting
@@ -650,6 +651,18 @@
   \vspace{-4.0mm}
 }
 
+% Define an environment for cvitems(for cventry)                                                  
+\newenvironment{svitems}{%                                                                                 
+  \vspace{3.0mm}                                                                                    
+  \begin{justify}                                                                                 
+  \begin{itemize}[leftmargin=2ex, nosep, noitemsep]                                                        
+    \setlength{\parskip}{0pt}                                                                      
+    \renewcommand{\labelitemi}{\bullet}                                                           
+}{%                                                                                                        
+  \end{itemize}                                                                                            
+  \end{justify}                                                                                      
+  \vspace{1.0mm}                                                                                          
+} 
 
 %-------------------------------------------------------------------------------
 %                Commands for elements of Cover Letter
