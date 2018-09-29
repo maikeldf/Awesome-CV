@@ -4,7 +4,7 @@ Curriculum Vitae is LaTeX project forked by [Awesome CV](https://github.com/posq
 
 ### Preview
 
-You can see [PDF](https://goo.gl/PuWbgv)
+You can see [PDF](https://goo.gl/sS8rrV)
 
 ### How to Use
 
