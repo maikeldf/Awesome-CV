@@ -1,0 +1,1 @@
+xelatex resume.tex && evince resume.pdf

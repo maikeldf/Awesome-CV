@@ -18,7 +18,8 @@ You can [install TeX from upstream](http://tex.stackexchange.com/q/1092) (recomm
 At a command prompt, run
 
 ```bash
-$ xelatex {your-cv}.tex
+$ cd examples
+$ ./build.sh
 ```
 
 This should result in the creation of ``{your-cv}.pdf``
